@@ -1,0 +1,133 @@
+body{
+  background-color: rgb(151, 210, 235);
+  color: white;
+  overflow: hidden;
+
+}
+h1{
+  text-align: center;
+  color:rgb(13, 1, 66);
+  
+}
+.todo-container{
+  background: rgb(45, 186, 198);
+  padding: 2%;
+  width: fit-content;
+  margin-right: auto ;
+  margin-left: auto;
+  margin-top: 3%;
+  max-height: 80vh;
+  overflow-y: auto;
+  box-shadow: 0px 5px 10px rgb(27, 27,27);
+}
+.todo-inputs{
+display: flex;
+align-items: center;
+justify-content: center;
+border-bottom: 1px solid gray;
+padding-bottom: 35px;
+margin-bottom: 20px;
+}
+.todo-input-item{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-right: 25px;
+}
+.todo-input-item label{
+  font-size: 25px;
+font-weight: bold;
+margin-bottom: 10px;
+color: rgb(13, 1, 66);;
+}
+.todo-input-item input{
+padding: 8px;
+border-radius: 5px;
+width: 250px;
+border:none;
+
+}
+.todo-input-item input:focus{
+  outline: 2px solid rgb(28, 149, 28);
+}
+.primaryBtn{
+  background-color: rgb(23, 38, 126);
+  color: white;
+  border-radius:5px ;
+  border: none;
+  margin: 35px 0 0 0;
+  padding: 10px;
+  width:60px;
+  cursor: pointer;
+
+}
+.primaryBtn:hover{
+  background-color: rgb(25, 213, 25);
+  
+}
+.secondaryBtn{
+  background-color: rgb(23, 38, 126);
+  color: white;
+  border: none;
+  margin: 10px 0 0 0;
+  padding: 10px;
+  width:fit-content;
+  cursor: pointer;
+}
+.active{
+  background-color: rgb(25, 213, 25);
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+
+}
+.todo-list-item{
+  background-color:rgb(13, 1, 66);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+
+  box-shadow: 0px 3px 5px rgb(43, 42, 42);
+}
+.todo-list-item h3{
+  font-size: 25px;
+  color: rgb(25, 213, 25);
+
+}
+.todo-list-item p{
+  font-size: 14px;
+  margin-top: 8px;
+  color: rgb(223, 223, 223);
+}
+.icon{
+ font-size: 35px;
+ cursor: pointer;
+}
+.icon:hover{
+  color: red;
+
+}
+.check-icon{
+  font-size: 35px;
+ cursor: pointer;
+ margin-left:20px;
+ color:  rgb(25, 213, 25);
+}
+.check-icon:hover{
+  color: green;
+}
+.edit-icon{
+  margin-left:20px;
+  font-size: 35px;
+
+}
+.edit-icon:hover{
+  color: rgb(220, 220, 54);
+}
