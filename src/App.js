@@ -164,8 +164,8 @@ const handleComplete = (index) => {
   return(
        <div className="todo-list-item " key={index}>
             <div>
-              <h3>{item.title}</h3>
-              <p>{item.description}</p>
+              <h3 className="line-through">{item.title}</h3>
+              <p className="line-through">{item.description}</p>
               <p><small>Completed on: {item.completedOn}</small></p>
             </div>
             <div>

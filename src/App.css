@@ -132,3 +132,9 @@ border:none;
 .edit-icon:hover{
   color: rgb(220, 220, 54);
 }
+.line-through{
+  text-decoration: line-through;
+  text-decoration-color: white;
+  text-decoration-style: double;
+
+}
